@@ -1,0 +1,179 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+#wrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 991px;
+    padding-top: 50px;
+}
+
+#nav-info {
+	width: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: none;
+}
+
+li {
+    width: 100%;
+    float: left;
+    margin: 9px 0px 9px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+	font-family: '微軟正黑體', sans-serif;
+	color: rgb(96,190,174);
+    text-align: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav > ul > li:hover {
+	color: gray;
+}
+
+#icon_1 {
+    width: 100px;
+    float: left;
+    margin: 50px 0px 0px 20px;
+}
+
+.icon_2, .ver_1, {
+    display: none;
+}
+
+aside {
+    display: block;
+    width: 200px;
+    color: rgb(87,87,87);
+}
+
+aside>h5 {
+    width: 100%;
+    margin-left: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+aside>p {
+    width: 70px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+#main {
+    width: 80%;
+}
+
+.title-box {
+    position: relative;
+    width: 768px;
+}
+
+#titleA {
+    display: block;
+    overflow: hidden;
+    height: 445px;
+}
+
+#titleB {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding: 15px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 140px;
+    right: 0;
+    width: 205px;
+}
+
+#titleC {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding: 15px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 635px;
+}
+
+#nd-nav {
+    display: flex;
+}
+
+.option {
+    flex: auto;
+	display: inline-block;
+	text-align: center;
+    border: 0.5px solid rgb(217,239,236);
+    color: rgb(96,190,174);
+    background-color: rgb(239,248,247);
+    width: 20%;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+}
+
+.option>h3:hover, {
+    color: gray;
+}
+
+.option > h3 {
+    font-size: 2rem;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+.option > p {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: '微軟正黑體', sans-serif;
+    text-align: center;
+}
+
+#archives {
+    margin: 0px auto 10px auto;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+h3 {
+    color: rgb(96,190,174);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+time {
+    color: #AAA;
+}
+
+.arti-with-pic {
+    float: left;
+    width: 23.6%;
+    clear: right;
+    margin: 0px 5px 20px 5px;
+}

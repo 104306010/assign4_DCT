@@ -1,0 +1,148 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+#nav-info, .hero-unit, #archives {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+body>nav {
+	text-align: center;
+	width: 100%;
+}
+
+#nav-info {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: right;
+    margin: 30px 0px 30px 20px;
+    font-size: 1.7rem;
+    font-weight: bold;
+	font-family: '微軟正黑體', sans-serif;
+	color: rgb(96,190,174);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav > ul > li:hover {
+	color: gray;
+}
+
+#icon_1 {
+    width: 100px;
+    float: left;
+    margin-left: 0px; 
+}
+
+aside, .icon_2, .ver_1, .option>p {
+    display: none;
+}
+
+.title-box {
+    position: relative;
+    width: 768px;
+}
+
+#titleA {
+    display: block;
+    overflow: hidden;
+    height: 445px;
+}
+
+#titleB {
+    display: block;
+    background-color: white;
+    color: black;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding: 15px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 140px;
+    right: 0;
+    width: 205px;
+}
+
+#titleC {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2.2rem;
+    line-height: 30px;
+    padding: 15px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 635px;
+}
+
+#nd-nav {
+    display: flex;
+}
+
+.option {
+    flex: auto;
+	display: inline-block;
+	text-align: center;
+    border: 0.5px solid rgb(217,239,236);
+    color: rgb(96,190,174);
+    background-color: rgb(239,248,247);
+    width: 25%;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+}
+
+.option>h3:hover {
+    color: gray;
+}
+
+.option > h3 {
+    font-size: 2rem;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+#archives {
+    margin: 0px auto 10px auto;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+h3 {
+    color: rgb(96,190,174);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+time {
+    color: #AAA;
+}
+
+.arti-with-pic {
+    float: left;
+    width: 23.6%;
+    clear: right;
+    margin: 0px 5px 20px 5px;
+}

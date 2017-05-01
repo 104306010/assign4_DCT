@@ -1,0 +1,111 @@
+img, embed, object, video {
+    max-width: 100%;
+}
+
+#nav-info, .hero-unit, #archives {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+body>nav {
+	text-align: center;
+	width: 100%;
+}
+
+#nav-info {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+li {
+    float: right;
+    margin: 20px 0px 20px 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+	font-family: '微軟正黑體', sans-serif;
+	color: rgb(96,190,174);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+nav > ul > li:hover {
+	color: gray;
+}
+
+#icon_1 {
+    width: 60px;
+    float: left;
+    margin-left: 0px; 
+}
+
+aside, #nd-nav, .icon_2, .ver_1 {
+    display: none;
+}
+
+#titleA {
+    display: block;
+    overflow: hidden;
+    height: 248px;
+}
+
+#titleB {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 10px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+}
+
+#titleC {
+    display: block;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 10px;
+    text-align: left;
+    font-family: '微軟正黑體', sans-serif;
+    font-weight: bold;
+}
+
+#archives {
+    margin: 20px auto 10px auto;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+h3 {
+    color: rgb(96,190,174);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+time {
+    color: #AAA;
+}
+
+.arti-with-pic {
+    float: left;
+    width: 48%;
+    clear: right;
+    margin: 0px 2.5px 20px 2.5px;
+}
